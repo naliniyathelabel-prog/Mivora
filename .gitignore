@@ -1,0 +1,18 @@
+# Node dependencies
+node_modules/
+.pnpm-store/
+
+# Build and compile output
+dist/
+build/
+*.tsbuildinfo
+
+# Tooling and caches
+.eslintcache
+.prettiercache
+coverage/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
