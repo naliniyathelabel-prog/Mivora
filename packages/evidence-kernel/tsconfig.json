@@ -2,8 +2,12 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "outDir": "./dist",
-    "rootDir": ".",
-    "declaration": true
+    "declaration": true,
+    "baseUrl": ".",
+    "paths": {
+      "@mivora/contracts": ["../contracts/src/index.ts"],
+      "@mivora/feature-taxonomy": ["../feature-taxonomy/src/index.ts"]
+    }
   },
   "include": ["src/**/*", "tests/**/*"]
 }
